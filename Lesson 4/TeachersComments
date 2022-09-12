@@ -1,0 +1,15 @@
+Well done!
+
+3
+I think that I got what you wanted to say, you just verbed it not so correctly. 
+You described the case only for 1 row, but it would be more correct to work with example with all rows. In that case these functions return equal results if all rows would hasve different values (there will be no duplicates).
+
+
+4
+e) -0.75
+You missed the part "for every sales order id". Partition by needed.
+
+g) -1
+No solution
+
+Mark: 8
