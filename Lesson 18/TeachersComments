@@ -1,0 +1,15 @@
+Well done!
+
+1
+-0.5
+Why do we have HAVING clause? We need to use it in the cases like this.
+
+4
+-0.5
+Can be solved easier:
+SELECT department_name, (AVG(salary) OVER (PARTITION BY department_id)/AVG(salary) OVER ())*100 AS diff_pct
+FROM Employees e JOIN Departments d ON dep.department_id=emp.department_id
+
+
+
+Mark: 9
